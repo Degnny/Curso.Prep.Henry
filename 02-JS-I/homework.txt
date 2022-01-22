@@ -1,0 +1,74 @@
+- Variables: 
+
+Una variable vendria hacer como una cajita y dentro de esta caja almacenaremos un valor o dato, para luego hacer uso cuando lo nesecitamos.
+Antes de hacer uso nuestra variable lo primero que hacemos es declararlo.
+Esta declaracion va a consistir primero en usar la palabra clave 'var' seguido del nombre de la variable y se queremos asignarle un valor ponemos el '=' y despues el valor;
+
+Ejemplo:
+
+var edad = 20;
+
+Decimos que en nuestra variable de nombre edad almacenaremos el valor 20; 
+
+
+- Strings:
+
+Es un tipo de datos que almacenaremos en nuestra variable, este tipo de dato nos indica que lo que almacenaremos es un conjunto de caracteres o bloque de textos y que siempre estaran definidas entre comillas.
+
+Ejemplo.
+
+var nombre = 'Degnny';
+
+- Funciones:
+
+Una funcion vendria hacer un conjunto de instrucciones que realizara tareas o el calculo de un valor para que realice esta tarea se debe de ingresar una entrada y devolver una salida. 
+Para definir una funcion, primero se declara la funcion con la palabra reservada 'function', seguido del nombre de la funcion ademas entre parentesis los parametros de la funcion y finalmente entre corchetes el codigo que queramos que se ejecute.
+
+Argumentos: Son tipos de variables que se le asigna a una funcion dentro de su parentesis y separados entre coma si son mas de uno y usarlo dentro de nuestra funcion.
+
+Returns: Para devolver la salida de nuestra funcion que en este caso es mi nombre, usamos la palabra reservada 'return' 
+
+Ejemplo:
+
+function miNombre(nombre){
+	
+	return nombre;
+}
+
+
+- Declaraciones if:
+
+Es una estructura de seleccion que nos permite evaluar una condicion si esta condicion cumple ejecuta una accion, y si la condicion no cumple realiza otra accion.
+
+Ejemplo:
+
+function mayorEdad(edad){
+	if(edad > 18){
+	return 'Mayor edad';
+	}
+	if else{
+	return 'Menor edad';
+	}
+}
+
+- Valores booleanos (`true`, `false`):
+
+son operadores que se utilizan para indicar la condicion logica, esta condicion logica vendria hacer una expresion logica como 'verdadero' o 'falso': 'true' o 'false'
+
+Ejemplo:
+
+function MenorEdad(edad){
+	
+	if(edad < 18 && edad > 0){
+	 return true;
+	}
+	return false;
+} 
+MenorEdad(9);
+true;
+
+
+
+
+
+
