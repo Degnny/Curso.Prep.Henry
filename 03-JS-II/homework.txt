@@ -1,0 +1,25 @@
+*`for`
+Un bucle for se utiliza para resolver problemas que involucra procesos repetitivos, el bucle de sentencia for resumiremos su funcionamiento en 4 pasos:
+1.- ejecutamos la sentencia de inicio declarando la variable y se inicializa el for.
+2.- evaluamos la condicion si esta condicion es verdadero continua al siguiente paso, caso contrario finaliza el for.
+3.- se ejecuta las acciones que se encuentran entre corchetes dentro del for.
+4.- se ejecuta el incremento del contador del for y vuelve al paso 2.
+	
+	1(inicio); 2condicion); 4(Incremento) 
+for(var i=0;      i<5;       i++){
+	accion...|
+	accion...|3(acciones)
+	.		 |	
+	.		 |
+}
+* `&&`
+Operador AND logico (y).
+se usa para evaluar dos expresiones y nos regresa verdadero si las expresiones que evalua es verdadero.
+
+* `||`
+Operador OR logico (ó).
+evalua si una de las expresiones es verdadero y devuelve verdadero si una ó ambas expresiones es verdadero y devuelve falso si ambas expresiones son falsa.   
+
+* `!`
+operador NOT Logico (no)
+este operador devuele un valor booleano contrario a lo que se evalua.
